@@ -56,6 +56,7 @@ const WebgiViewer = forwardRef((props, ref) => {
             });
 
             viewerRef.scene.activeCamera.setCameraOptions({ controlsEnabled: true });
+            viewerRef.scene.activeCamera.setCameraOptions({ controlsEnabled: true });
         }
     }))
 
